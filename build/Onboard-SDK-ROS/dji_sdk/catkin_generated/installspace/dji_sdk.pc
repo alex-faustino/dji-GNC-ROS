@@ -1,0 +1,8 @@
+prefix=/home/matrice/dji_ws/install
+
+Name: dji_sdk
+Description: Description of dji_sdk
+Version: 3.2.0
+Cflags: -I/home/matrice/dji_ws/install/include
+Libs: -L/home/matrice/dji_ws/install/lib 
+Requires: message_runtime geometry_msgs nav_msgs std_msgs

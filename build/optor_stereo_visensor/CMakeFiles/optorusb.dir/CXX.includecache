@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorusb.h
+
+/home/matrice/dji_ws/src/optor_stereo_visensor/src/optorusb.cpp
+stdio.h
+-
+libusb-1.0/libusb.h
+-
+optor_stereo_visensor_ros/optorusb.h
+/home/matrice/dji_ws/src/optor_stereo_visensor/src/optor_stereo_visensor_ros/optorusb.h
+

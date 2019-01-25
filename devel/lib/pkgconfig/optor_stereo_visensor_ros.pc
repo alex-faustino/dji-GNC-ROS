@@ -1,0 +1,8 @@
+prefix=/home/matrice/dji_ws/devel
+
+Name: optor_stereo_visensor_ros
+Description: Description of optor_stereo_visensor_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/matrice/dji_ws/devel/lib 
+Requires: sensor_msgs std_msgs cv_bridge image_transport message_runtime
