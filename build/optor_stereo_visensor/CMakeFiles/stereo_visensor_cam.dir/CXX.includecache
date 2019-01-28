@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorcam.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorcam.h
 sys/time.h
 -
 optorimu.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorimu.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorimu.h
 optorusb.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorusb.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorusb.h
 
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorimu.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorimu.h
 
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorusb.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorusb.h
 
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/stereo_visensor_cam.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/stereo_visensor_cam.h
 ros/ros.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/ros/ros.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/ros/ros.h
 std_msgs/String.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/std_msgs/String.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/std_msgs/String.h
 image_transport/image_transport.h
 -
 cv_bridge/cv_bridge.h
 -
 sensor_msgs/Imu.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/sensor_msgs/Imu.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/sensor_msgs/Imu.h
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
@@ -46,11 +46,11 @@ stdlib.h
 string.h
 -
 optorcam.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorcam.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorcam.h
 
-/home/matrice/dji_ws/src/optor_stereo_visensor/src/stereo_visensor_cam.cpp
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/src/stereo_visensor_cam.cpp
 optor_stereo_visensor_ros/stereo_visensor_cam.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/src/optor_stereo_visensor_ros/stereo_visensor_cam.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/src/optor_stereo_visensor_ros/stereo_visensor_cam.h
 message_filters/subscriber.h
 -
 message_filters/time_synchronizer.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrice/dji_ws/src
+CMAKE_SOURCE_DIR = /home/matrice/dji-GNC-ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrice/dji_ws/build
+CMAKE_BINARY_DIR = /home/matrice/dji-GNC-ROS/build
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji_ws/src /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk /home/matrice/dji_ws/build /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji-GNC-ROS/src /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk /home/matrice/dji-GNC-ROS/build /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

@@ -5,7 +5,7 @@ int main(int argc, char**argv)
 {
   ros::init(argc, argv, "optor_stereo_visensor");
   ros::NodeHandle nh;
-  char *path;
+  char *path = "optor_VISensor_Setups.txt";
 
   if(argv[1])
   {

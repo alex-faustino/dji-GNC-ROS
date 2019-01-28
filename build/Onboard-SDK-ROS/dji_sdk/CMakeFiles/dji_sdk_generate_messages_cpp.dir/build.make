@@ -43,356 +43,356 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrice/dji_ws/src
+CMAKE_SOURCE_DIR = /home/matrice/dji-GNC-ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrice/dji_ws/build
+CMAKE_BINARY_DIR = /home/matrice/dji-GNC-ROS/build
 
 # Utility rule file for dji_sdk_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/progress.make
 
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypoint.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Gimbal.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHotpointTask.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointAction.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MobileData.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/VOPosition.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Waypoint.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/FlightAnomaly.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/WaypointList.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SetHardSync.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionStatus.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadius.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfig.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SendMobileData.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/StereoDepthSubscription.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpGetInfo.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SetupCameraStream.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpSetSpeed.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/StereoVGASubscription.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetSpeed.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpResetYaw.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpAction.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/CameraAction.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControl.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Activation.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRate.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Stereo240pSubscription.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRef.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValue.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h
-Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpAction.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Gimbal.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHotpointTask.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MobileData.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/WaypointList.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointAction.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Waypoint.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/FlightAnomaly.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/VOPosition.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypoint.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Stereo240pSubscription.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetHardSync.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRef.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpSetSpeed.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetupCameraStream.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpAction.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpGetInfo.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValue.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRate.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoVGASubscription.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfig.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileData.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionStatus.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetSpeed.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraAction.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControl.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpAction.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoDepthSubscription.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadius.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpResetYaw.h
+Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h
 
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypoint.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypoint.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from dji_sdk/MissionWaypoint.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Gimbal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Gimbal.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/Gimbal.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Gimbal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Gimbal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from dji_sdk/Gimbal.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/Gimbal.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Gimbal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/Gimbal.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/Gimbal.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/Gimbal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/Gimbal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from dji_sdk/Gimbal.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/Gimbal.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHotpointTask.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHotpointTask.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHotpointTask.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from dji_sdk/MissionHotpointTask.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from dji_sdk/MissionWaypointTask.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from dji_sdk/MissionWaypointTask.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHotpointTask.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHotpointTask.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHotpointTask.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from dji_sdk/MissionHotpointTask.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MobileData.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MobileData.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MobileData.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MobileData.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from dji_sdk/MobileData.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MobileData.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointAction.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from dji_sdk/MissionWaypointAction.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/WaypointList.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/WaypointList.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/WaypointList.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/WaypointList.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/Waypoint.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/WaypointList.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from dji_sdk/WaypointList.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/WaypointList.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MobileData.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MobileData.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MobileData.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MobileData.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from dji_sdk/MobileData.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MobileData.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointAction.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from dji_sdk/MissionWaypointAction.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/VOPosition.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/VOPosition.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/VOPosition.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/VOPosition.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/VOPosition.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from dji_sdk/VOPosition.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/VOPosition.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Waypoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Waypoint.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/Waypoint.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Waypoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from dji_sdk/Waypoint.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/Waypoint.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Waypoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/Waypoint.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/Waypoint.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/Waypoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from dji_sdk/Waypoint.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/Waypoint.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/FlightAnomaly.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/FlightAnomaly.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/FlightAnomaly.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/FlightAnomaly.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from dji_sdk/FlightAnomaly.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/FlightAnomaly.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/FlightAnomaly.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/FlightAnomaly.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/FlightAnomaly.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/FlightAnomaly.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from dji_sdk/FlightAnomaly.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/FlightAnomaly.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/VOPosition.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/VOPosition.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/VOPosition.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/VOPosition.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/VOPosition.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from dji_sdk/VOPosition.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/VOPosition.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/WaypointList.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/WaypointList.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/WaypointList.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/WaypointList.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/Waypoint.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/WaypointList.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from dji_sdk/WaypointList.msg"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/WaypointList.msg -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypoint.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypoint.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from dji_sdk/MissionWaypoint.msg"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SetHardSync.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/SetHardSync.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SetHardSync.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/SetHardSync.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/SetHardSync.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from dji_sdk/SetHardSync.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SetHardSync.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Stereo240pSubscription.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Stereo240pSubscription.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/Stereo240pSubscription.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Stereo240pSubscription.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Stereo240pSubscription.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from dji_sdk/Stereo240pSubscription.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/Stereo240pSubscription.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpUpload.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from dji_sdk/MissionWpUpload.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpUpload.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetHardSync.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetHardSync.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SetHardSync.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetHardSync.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetHardSync.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from dji_sdk/SetHardSync.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SetHardSync.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionStatus.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionStatus.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionStatus.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionStatus.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionStatus.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from dji_sdk/MissionStatus.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionStatus.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRef.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRef.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SetLocalPosRef.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRef.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRef.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from dji_sdk/SetLocalPosRef.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SetLocalPosRef.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadius.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadius.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateRadius.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadius.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadius.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from dji_sdk/MissionHpUpdateRadius.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateRadius.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpSetSpeed.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpSetSpeed.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from dji_sdk/MissionWpSetSpeed.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpSetSpeed.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfig.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfig.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOConfig.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfig.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfig.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from dji_sdk/MFIOConfig.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOConfig.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetupCameraStream.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetupCameraStream.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SetupCameraStream.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetupCameraStream.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetupCameraStream.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from dji_sdk/SetupCameraStream.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SetupCameraStream.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SDKControlAuthority.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from dji_sdk/SDKControlAuthority.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SDKControlAuthority.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/DroneTaskControl.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from dji_sdk/DroneTaskControl.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/DroneTaskControl.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SendMobileData.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/SendMobileData.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SendMobileData.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/SendMobileData.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/SendMobileData.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from dji_sdk/SendMobileData.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SendMobileData.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/Activation.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from dji_sdk/Activation.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/Activation.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/DroneTaskControl.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from dji_sdk/DroneTaskControl.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/DroneTaskControl.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpAction.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpAction.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpAction.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from dji_sdk/MissionHpAction.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpAction.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoDepthSubscription.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoDepthSubscription.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/StereoDepthSubscription.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoDepthSubscription.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoDepthSubscription.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from dji_sdk/StereoDepthSubscription.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/StereoDepthSubscription.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpGetInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpGetInfo.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpGetInfo.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpGetInfo.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpGetInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpGetInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from dji_sdk/MissionHpGetInfo.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpGetInfo.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpGetInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpGetInfo.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpGetInfo.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpGetInfo.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpGetInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpGetInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from dji_sdk/MissionHpGetInfo.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpGetInfo.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValue.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValue.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOSetValue.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValue.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValue.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from dji_sdk/MFIOSetValue.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOSetValue.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SetupCameraStream.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/SetupCameraStream.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SetupCameraStream.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/SetupCameraStream.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/SetupCameraStream.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from dji_sdk/SetupCameraStream.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SetupCameraStream.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateYawRate.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from dji_sdk/MissionHpUpdateYawRate.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateYawRate.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpSetSpeed.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpSetSpeed.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from dji_sdk/MissionWpSetSpeed.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpSetSpeed.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoVGASubscription.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoVGASubscription.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/StereoVGASubscription.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoVGASubscription.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoVGASubscription.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from dji_sdk/StereoVGASubscription.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/StereoVGASubscription.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoVGASubscription.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoVGASubscription.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/StereoVGASubscription.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoVGASubscription.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/StereoVGASubscription.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from dji_sdk/StereoVGASubscription.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/StereoVGASubscription.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfig.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfig.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOConfig.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfig.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfig.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from dji_sdk/MFIOConfig.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOConfig.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/QueryDroneVersion.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from dji_sdk/QueryDroneVersion.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/QueryDroneVersion.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileData.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileData.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SendMobileData.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileData.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileData.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from dji_sdk/SendMobileData.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SendMobileData.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetSpeed.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetSpeed.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from dji_sdk/MissionWpGetSpeed.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetSpeed.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionStatus.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionStatus.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionStatus.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionStatus.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionStatus.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from dji_sdk/MissionStatus.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionStatus.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpResetYaw.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpResetYaw.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from dji_sdk/MissionHpResetYaw.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpResetYaw.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetSpeed.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetSpeed.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from dji_sdk/MissionWpGetSpeed.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetSpeed.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpAction.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpAction.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpAction.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from dji_sdk/MissionHpAction.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpAction.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SDKControlAuthority.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from dji_sdk/SDKControlAuthority.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/SDKControlAuthority.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/CameraAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/CameraAction.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/CameraAction.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/CameraAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/CameraAction.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from dji_sdk/CameraAction.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/CameraAction.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpUpload.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from dji_sdk/MissionWpUpload.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpUpload.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControl.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/DroneArmControl.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from dji_sdk/DroneArmControl.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/DroneArmControl.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraAction.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/CameraAction.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraAction.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from dji_sdk/CameraAction.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/CameraAction.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Activation.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/Activation.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/Activation.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/Activation.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/Activation.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from dji_sdk/Activation.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/Activation.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpload.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from dji_sdk/MissionHpUpload.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpload.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateYawRate.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRate.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from dji_sdk/MissionHpUpdateYawRate.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateYawRate.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControl.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/DroneArmControl.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from dji_sdk/DroneArmControl.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/DroneArmControl.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Stereo240pSubscription.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/Stereo240pSubscription.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/Stereo240pSubscription.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/Stereo240pSubscription.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/Stereo240pSubscription.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from dji_sdk/Stereo240pSubscription.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/Stereo240pSubscription.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetInfo.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from dji_sdk/MissionWpGetInfo.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetInfo.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetInfo.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointAction.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypoint.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionWaypointTask.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from dji_sdk/MissionWpGetInfo.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpGetInfo.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpAction.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpAction.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpAction.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from dji_sdk/MissionWpAction.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpAction.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRef.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRef.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SetLocalPosRef.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRef.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRef.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from dji_sdk/SetLocalPosRef.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/SetLocalPosRef.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoDepthSubscription.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoDepthSubscription.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/StereoDepthSubscription.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoDepthSubscription.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoDepthSubscription.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from dji_sdk/StereoDepthSubscription.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/StereoDepthSubscription.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValue.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValue.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOSetValue.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValue.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValue.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from dji_sdk/MFIOSetValue.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MFIOSetValue.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadius.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadius.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateRadius.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadius.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadius.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from dji_sdk/MissionHpUpdateRadius.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpdateRadius.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpload.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg/MissionHotpointTask.msg
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from dji_sdk/MissionHpUpload.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpUpload.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpResetYaw.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpResetYaw.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from dji_sdk/MissionHpResetYaw.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/MissionHpResetYaw.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpAction.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpAction.h: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpAction.srv
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpAction.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpAction.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from dji_sdk/MissionWpAction.srv"
-	cd /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/srv/MissionWpAction.srv -Idji_sdk:/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji_ws/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/QueryDroneVersion.srv
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from dji_sdk/QueryDroneVersion.srv"
+	cd /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk && /home/matrice/dji-GNC-ROS/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/srv/QueryDroneVersion.srv -Idji_sdk:/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /home/matrice/dji-GNC-ROS/devel/include/dji_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 dji_sdk_generate_messages_cpp: Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypoint.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Gimbal.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHotpointTask.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointAction.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MobileData.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/VOPosition.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Waypoint.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/FlightAnomaly.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/WaypointList.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SetHardSync.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionStatus.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadius.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfig.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SendMobileData.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/StereoDepthSubscription.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpGetInfo.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SetupCameraStream.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpSetSpeed.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/StereoVGASubscription.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetSpeed.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpResetYaw.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpAction.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/CameraAction.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControl.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Activation.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRate.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/Stereo240pSubscription.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpGetInfo.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRef.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValue.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h
-dji_sdk_generate_messages_cpp: /home/matrice/dji_ws/devel/include/dji_sdk/MissionWpAction.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Gimbal.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHotpointTask.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MobileData.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/WaypointList.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointAction.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Waypoint.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/FlightAnomaly.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/VOPosition.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypoint.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Stereo240pSubscription.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetHardSync.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRef.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpSetSpeed.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetupCameraStream.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpAction.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpGetInfo.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValue.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRate.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoVGASubscription.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfig.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileData.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionStatus.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetSpeed.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraAction.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControl.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpGetInfo.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpAction.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/StereoDepthSubscription.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadius.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpResetYaw.h
+dji_sdk_generate_messages_cpp: /home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h
 dji_sdk_generate_messages_cpp: Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/build.make
 
 .PHONY : dji_sdk_generate_messages_cpp
@@ -403,10 +403,10 @@ Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/build: dji_
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/build
 
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/clean:
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/dji_sdk_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/dji_sdk_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/clean
 
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/depend:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji_ws/src /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk /home/matrice/dji_ws/build /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji-GNC-ROS/src /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk /home/matrice/dji-GNC-ROS/build /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/depend
 

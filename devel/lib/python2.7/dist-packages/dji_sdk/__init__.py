@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/src".split(";")
+__extended_path = "/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

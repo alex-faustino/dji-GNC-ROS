@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/matrice/dji_ws/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorimu.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include/optor_stereo_visensor_ros/optorimu.h
 
-/home/matrice/dji_ws/src/optor_stereo_visensor/src/optorimu.cpp
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/src/optorimu.cpp
 stdio.h
 -
 unistd.h
@@ -32,5 +32,5 @@ math.h
 sys/time.h
 -
 optor_stereo_visensor_ros/optorimu.h
-/home/matrice/dji_ws/src/optor_stereo_visensor/src/optor_stereo_visensor_ros/optorimu.h
+/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/src/optor_stereo_visensor_ros/optorimu.h
 

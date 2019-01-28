@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Activation.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h
 ros/service_traits.h
 -
 dji_sdk/ActivationRequest.h
@@ -14,7 +14,7 @@ dji_sdk/ActivationRequest.h
 dji_sdk/ActivationResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/ActivationRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/ActivationRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/ActivationResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/ActivationResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfig.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfig.h
 ros/service_traits.h
 -
 dji_sdk/MFIOConfigRequest.h
@@ -54,7 +54,7 @@ dji_sdk/MFIOConfigRequest.h
 dji_sdk/MFIOConfigResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfigRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfigRequest.h
 string
 -
 vector
@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOConfigResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOConfigResponse.h
 string
 -
 vector
@@ -86,7 +86,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValue.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValue.h
 ros/service_traits.h
 -
 dji_sdk/MFIOSetValueRequest.h
@@ -94,7 +94,7 @@ dji_sdk/MFIOSetValueRequest.h
 dji_sdk/MFIOSetValueResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValueRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValueRequest.h
 string
 -
 vector
@@ -110,7 +110,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MFIOSetValueResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MFIOSetValueResponse.h
 string
 -
 vector
@@ -126,9 +126,9 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_mfio.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_mfio.h
 unistd.h
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/unistd.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/unistd.h
 cstdint
 -
 iostream
@@ -142,7 +142,7 @@ dji_sdk/MFIOSetValue.h
 ros/ros.h
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_mfio.cpp
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_mfio.cpp
 dji_sdk_demo/demo_mfio.h
 -
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matrice/dji_ws/src/optor_stereo_visensor/src/optorimu.cpp" "/home/matrice/dji_ws/build/optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.o"
+  "/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/src/optorimu.cpp" "/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/matrice/dji_ws/src/optor_stereo_visensor/include"
+  "/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev"

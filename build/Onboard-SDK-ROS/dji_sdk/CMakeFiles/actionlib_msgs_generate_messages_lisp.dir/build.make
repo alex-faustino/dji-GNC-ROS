@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrice/dji_ws/src
+CMAKE_SOURCE_DIR = /home/matrice/dji-GNC-ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrice/dji_ws/build
+CMAKE_BINARY_DIR = /home/matrice/dji-GNC-ROS/build
 
 # Utility rule file for actionlib_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/bui
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean:
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji_ws/src /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk /home/matrice/dji_ws/build /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji-GNC-ROS/src /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk /home/matrice/dji-GNC-ROS/build /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 

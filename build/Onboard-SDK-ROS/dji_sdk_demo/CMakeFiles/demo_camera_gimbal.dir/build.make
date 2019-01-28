@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrice/dji_ws/src
+CMAKE_SOURCE_DIR = /home/matrice/dji-GNC-ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrice/dji_ws/build
+CMAKE_BINARY_DIR = /home/matrice/dji-GNC-ROS/build
 
 # Include any dependencies generated for this target.
 include Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/depend.make
@@ -58,17 +58,17 @@ include Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/progress.
 include Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/flags.make
 
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/flags.make
-Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o: /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o"
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o -c /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp
+Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o: /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o"
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o -c /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp
 
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.i"
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp > CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp > CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.i
 
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.s"
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp -o CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp -o CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.s
 
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o.requires:
 
@@ -88,45 +88,45 @@ demo_camera_gimbal_OBJECTS = \
 # External object files for target demo_camera_gimbal
 demo_camera_gimbal_EXTERNAL_OBJECTS =
 
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libimage_transport.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libclass_loader.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/libPocoFoundation.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libroscpp.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librosconsole.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libroslib.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librospack.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librostime.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libcpp_common.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/local/lib/libdjiosdk-core.a
-/home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matrice/dji_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal"
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_camera_gimbal.dir/link.txt --verbose=$(VERBOSE)
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libimage_transport.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libclass_loader.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/libPocoFoundation.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libroscpp.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librosconsole.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libroslib.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librospack.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/librostime.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /opt/ros/kinetic/lib/libcpp_common.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: /usr/local/lib/libdjiosdk-core.a
+/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal"
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_camera_gimbal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build: /home/matrice/dji_ws/devel/lib/dji_sdk_demo/demo_camera_gimbal
+Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build: /home/matrice/dji-GNC-ROS/devel/lib/dji_sdk_demo/demo_camera_gimbal
 
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build
 
@@ -135,10 +135,10 @@ Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/requires: Onboard
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/requires
 
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/clean:
-	cd /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo && $(CMAKE_COMMAND) -P CMakeFiles/demo_camera_gimbal.dir/cmake_clean.cmake
+	cd /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo && $(CMAKE_COMMAND) -P CMakeFiles/demo_camera_gimbal.dir/cmake_clean.cmake
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/clean
 
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/depend:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji_ws/src /home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo /home/matrice/dji_ws/build /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrice/dji-GNC-ROS/src /home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo /home/matrice/dji-GNC-ROS/build /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/depend
 

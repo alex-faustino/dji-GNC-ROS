@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h
 ros/service_traits.h
 -
 dji_sdk/DroneTaskControlRequest.h
@@ -14,7 +14,7 @@ dji_sdk/DroneTaskControlRequest.h
 dji_sdk/DroneTaskControlResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControlRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControlRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControlResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControlResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h
 ros/service_traits.h
 -
 dji_sdk/QueryDroneVersionRequest.h
@@ -54,7 +54,7 @@ dji_sdk/QueryDroneVersionRequest.h
 dji_sdk/QueryDroneVersionResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersionRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersionRequest.h
 string
 -
 vector
@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersionResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersionResponse.h
 string
 -
 vector
@@ -86,7 +86,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h
 ros/service_traits.h
 -
 dji_sdk/SDKControlAuthorityRequest.h
@@ -94,7 +94,7 @@ dji_sdk/SDKControlAuthorityRequest.h
 dji_sdk/SDKControlAuthorityResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthorityRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthorityRequest.h
 string
 -
 vector
@@ -110,7 +110,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthorityResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthorityResponse.h
 string
 -
 vector
@@ -126,7 +126,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRef.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRef.h
 ros/service_traits.h
 -
 dji_sdk/SetLocalPosRefRequest.h
@@ -134,7 +134,7 @@ dji_sdk/SetLocalPosRefRequest.h
 dji_sdk/SetLocalPosRefResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRefRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRefRequest.h
 string
 -
 vector
@@ -150,7 +150,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SetLocalPosRefResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SetLocalPosRefResponse.h
 string
 -
 vector
@@ -166,7 +166,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/include/dji_sdk/dji_sdk.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/include/dji_sdk/dji_sdk.h
 djiosdk/dji_control.hpp
 -
 djiosdk/dji_status.hpp
@@ -174,7 +174,7 @@ djiosdk/dji_status.hpp
 djiosdk/dji_version.hpp
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_flight_control.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_flight_control.h
 ros/ros.h
 -
 geometry_msgs/QuaternionStamped.h
@@ -198,11 +198,11 @@ tf/tf.h
 sensor_msgs/Joy.h
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_flight_control.cpp
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_flight_control.cpp
 dji_sdk_demo/demo_flight_control.h
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/dji_sdk_demo/demo_flight_control.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/dji_sdk_demo/demo_flight_control.h
 dji_sdk/dji_sdk.h
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/dji_sdk/dji_sdk.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/dji_sdk/dji_sdk.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

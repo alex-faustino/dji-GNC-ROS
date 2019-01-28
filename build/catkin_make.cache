@@ -1,2 +1,2 @@
 Onboard-SDK-ROS/dji_sdk:Onboard-SDK-ROS/dji_sdk_demo:optor_stereo_visensor
--DCATKIN_DEVEL_PREFIX=/home/matrice/dji_ws/devel -DCMAKE_INSTALL_PREFIX=/home/matrice/dji_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/matrice/dji-GNC-ROS/devel -DCMAKE_INSTALL_PREFIX=/home/matrice/dji-GNC-ROS/install -G Unix Makefiles

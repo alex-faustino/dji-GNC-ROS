@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrice/dji_ws/src
+CMAKE_SOURCE_DIR = /home/matrice/dji-GNC-ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrice/dji_ws/build
+CMAKE_BINARY_DIR = /home/matrice/dji-GNC-ROS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji_ws/build/CMakeFiles /home/matrice/dji_ws/build/Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/progress.marks
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji_ws/build/CMakeFiles 0
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/progress.marks
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/clean
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/preinstall
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/preinstall
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/rule
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ demo_flight_control: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control
 
 # fast build rule for target.
 demo_flight_control/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build
 .PHONY : demo_flight_control/fast
 
 # Convenience name for target.
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/rule
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ demo_camera_gimbal: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.d
 
 # fast build rule for target.
 demo_camera_gimbal/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build
 .PHONY : demo_camera_gimbal/fast
 
 # Convenience name for target.
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/rule
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ demo_mobile_comm: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/r
 
 # fast build rule for target.
 demo_mobile_comm/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build
 .PHONY : demo_mobile_comm/fast
 
 # Convenience name for target.
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/rule
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ demo_mfio: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/rule
 
 # fast build rule for target.
 demo_mfio/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build
 .PHONY : demo_mfio/fast
 
 # Convenience name for target.
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/rule
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ demo_local_position_control: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_
 
 # fast build rule for target.
 demo_local_position_control/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build
 .PHONY : demo_local_position_control/fast
 
 # Convenience name for target.
 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/rule
 .PHONY : Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/rule
 
 # Convenience name for target.
@@ -252,7 +252,7 @@ demo_mission: Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/rule
 
 # fast build rule for target.
 demo_mission/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build
 .PHONY : demo_mission/fast
 
 src/demo_camera_gimbal.o: src/demo_camera_gimbal.cpp.o
@@ -261,7 +261,7 @@ src/demo_camera_gimbal.o: src/demo_camera_gimbal.cpp.o
 
 # target to build an object file
 src/demo_camera_gimbal.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.o
 .PHONY : src/demo_camera_gimbal.cpp.o
 
 src/demo_camera_gimbal.i: src/demo_camera_gimbal.cpp.i
@@ -270,7 +270,7 @@ src/demo_camera_gimbal.i: src/demo_camera_gimbal.cpp.i
 
 # target to preprocess a source file
 src/demo_camera_gimbal.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.i
 .PHONY : src/demo_camera_gimbal.cpp.i
 
 src/demo_camera_gimbal.s: src/demo_camera_gimbal.cpp.s
@@ -279,7 +279,7 @@ src/demo_camera_gimbal.s: src/demo_camera_gimbal.cpp.s
 
 # target to generate assembly for a file
 src/demo_camera_gimbal.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_camera_gimbal.dir/src/demo_camera_gimbal.cpp.s
 .PHONY : src/demo_camera_gimbal.cpp.s
 
 src/demo_flight_control.o: src/demo_flight_control.cpp.o
@@ -288,7 +288,7 @@ src/demo_flight_control.o: src/demo_flight_control.cpp.o
 
 # target to build an object file
 src/demo_flight_control.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/src/demo_flight_control.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/src/demo_flight_control.cpp.o
 .PHONY : src/demo_flight_control.cpp.o
 
 src/demo_flight_control.i: src/demo_flight_control.cpp.i
@@ -297,7 +297,7 @@ src/demo_flight_control.i: src/demo_flight_control.cpp.i
 
 # target to preprocess a source file
 src/demo_flight_control.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/src/demo_flight_control.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/src/demo_flight_control.cpp.i
 .PHONY : src/demo_flight_control.cpp.i
 
 src/demo_flight_control.s: src/demo_flight_control.cpp.s
@@ -306,7 +306,7 @@ src/demo_flight_control.s: src/demo_flight_control.cpp.s
 
 # target to generate assembly for a file
 src/demo_flight_control.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/src/demo_flight_control.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_flight_control.dir/src/demo_flight_control.cpp.s
 .PHONY : src/demo_flight_control.cpp.s
 
 src/demo_local_position_control.o: src/demo_local_position_control.cpp.o
@@ -315,7 +315,7 @@ src/demo_local_position_control.o: src/demo_local_position_control.cpp.o
 
 # target to build an object file
 src/demo_local_position_control.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/src/demo_local_position_control.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/src/demo_local_position_control.cpp.o
 .PHONY : src/demo_local_position_control.cpp.o
 
 src/demo_local_position_control.i: src/demo_local_position_control.cpp.i
@@ -324,7 +324,7 @@ src/demo_local_position_control.i: src/demo_local_position_control.cpp.i
 
 # target to preprocess a source file
 src/demo_local_position_control.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/src/demo_local_position_control.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/src/demo_local_position_control.cpp.i
 .PHONY : src/demo_local_position_control.cpp.i
 
 src/demo_local_position_control.s: src/demo_local_position_control.cpp.s
@@ -333,7 +333,7 @@ src/demo_local_position_control.s: src/demo_local_position_control.cpp.s
 
 # target to generate assembly for a file
 src/demo_local_position_control.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/src/demo_local_position_control.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_local_position_control.dir/src/demo_local_position_control.cpp.s
 .PHONY : src/demo_local_position_control.cpp.s
 
 src/demo_mfio.o: src/demo_mfio.cpp.o
@@ -342,7 +342,7 @@ src/demo_mfio.o: src/demo_mfio.cpp.o
 
 # target to build an object file
 src/demo_mfio.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/src/demo_mfio.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/src/demo_mfio.cpp.o
 .PHONY : src/demo_mfio.cpp.o
 
 src/demo_mfio.i: src/demo_mfio.cpp.i
@@ -351,7 +351,7 @@ src/demo_mfio.i: src/demo_mfio.cpp.i
 
 # target to preprocess a source file
 src/demo_mfio.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/src/demo_mfio.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/src/demo_mfio.cpp.i
 .PHONY : src/demo_mfio.cpp.i
 
 src/demo_mfio.s: src/demo_mfio.cpp.s
@@ -360,7 +360,7 @@ src/demo_mfio.s: src/demo_mfio.cpp.s
 
 # target to generate assembly for a file
 src/demo_mfio.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/src/demo_mfio.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mfio.dir/src/demo_mfio.cpp.s
 .PHONY : src/demo_mfio.cpp.s
 
 src/demo_mission.o: src/demo_mission.cpp.o
@@ -369,7 +369,7 @@ src/demo_mission.o: src/demo_mission.cpp.o
 
 # target to build an object file
 src/demo_mission.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/src/demo_mission.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/src/demo_mission.cpp.o
 .PHONY : src/demo_mission.cpp.o
 
 src/demo_mission.i: src/demo_mission.cpp.i
@@ -378,7 +378,7 @@ src/demo_mission.i: src/demo_mission.cpp.i
 
 # target to preprocess a source file
 src/demo_mission.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/src/demo_mission.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/src/demo_mission.cpp.i
 .PHONY : src/demo_mission.cpp.i
 
 src/demo_mission.s: src/demo_mission.cpp.s
@@ -387,7 +387,7 @@ src/demo_mission.s: src/demo_mission.cpp.s
 
 # target to generate assembly for a file
 src/demo_mission.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/src/demo_mission.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/src/demo_mission.cpp.s
 .PHONY : src/demo_mission.cpp.s
 
 src/demo_mobile_comm.o: src/demo_mobile_comm.cpp.o
@@ -396,7 +396,7 @@ src/demo_mobile_comm.o: src/demo_mobile_comm.cpp.o
 
 # target to build an object file
 src/demo_mobile_comm.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/src/demo_mobile_comm.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/src/demo_mobile_comm.cpp.o
 .PHONY : src/demo_mobile_comm.cpp.o
 
 src/demo_mobile_comm.i: src/demo_mobile_comm.cpp.i
@@ -405,7 +405,7 @@ src/demo_mobile_comm.i: src/demo_mobile_comm.cpp.i
 
 # target to preprocess a source file
 src/demo_mobile_comm.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/src/demo_mobile_comm.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/src/demo_mobile_comm.cpp.i
 .PHONY : src/demo_mobile_comm.cpp.i
 
 src/demo_mobile_comm.s: src/demo_mobile_comm.cpp.s
@@ -414,7 +414,7 @@ src/demo_mobile_comm.s: src/demo_mobile_comm.cpp.s
 
 # target to generate assembly for a file
 src/demo_mobile_comm.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/src/demo_mobile_comm.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/build.make Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mobile_comm.dir/src/demo_mobile_comm.cpp.s
 .PHONY : src/demo_mobile_comm.cpp.s
 
 # Help Target
@@ -465,6 +465,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

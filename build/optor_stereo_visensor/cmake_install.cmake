@@ -1,8 +1,8 @@
-# Install script for directory: /home/matrice/dji_ws/src/optor_stereo_visensor
+# Install script for directory: /home/matrice/dji-GNC-ROS/src/optor_stereo_visensor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/matrice/dji_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/matrice/dji-GNC-ROS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/matrice/dji_ws/build/optor_stereo_visensor/catkin_generated/installspace/optor_stereo_visensor_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/catkin_generated/installspace/optor_stereo_visensor_ros.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optor_stereo_visensor_ros/cmake" TYPE FILE FILES
-    "/home/matrice/dji_ws/build/optor_stereo_visensor/catkin_generated/installspace/optor_stereo_visensor_rosConfig.cmake"
-    "/home/matrice/dji_ws/build/optor_stereo_visensor/catkin_generated/installspace/optor_stereo_visensor_rosConfig-version.cmake"
+    "/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/catkin_generated/installspace/optor_stereo_visensor_rosConfig.cmake"
+    "/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/catkin_generated/installspace/optor_stereo_visensor_rosConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optor_stereo_visensor_ros" TYPE FILE FILES "/home/matrice/dji_ws/src/optor_stereo_visensor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/optor_stereo_visensor_ros" TYPE FILE FILES "/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/package.xml")
 endif()
 

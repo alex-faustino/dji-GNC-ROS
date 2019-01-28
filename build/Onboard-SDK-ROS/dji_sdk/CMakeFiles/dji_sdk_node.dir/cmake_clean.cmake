@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_subscriber.cpp.o"
   "CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_publisher.cpp.o"
   "CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mobile_comm.cpp.o"
-  "/home/matrice/dji_ws/devel/lib/dji_sdk/dji_sdk_node.pdb"
-  "/home/matrice/dji_ws/devel/lib/dji_sdk/dji_sdk_node"
+  "/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk/dji_sdk_node.pdb"
+  "/home/matrice/dji-GNC-ROS/devel/lib/dji_sdk/dji_sdk_node"
 )
 
 # Per-language clean rules from dependency scanning.

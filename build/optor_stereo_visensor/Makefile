@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrice/dji_ws/src
+CMAKE_SOURCE_DIR = /home/matrice/dji-GNC-ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrice/dji_ws/build
+CMAKE_BINARY_DIR = /home/matrice/dji-GNC-ROS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji_ws/build/CMakeFiles /home/matrice/dji_ws/build/optor_stereo_visensor/CMakeFiles/progress.marks
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji_ws/build/CMakeFiles 0
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles /home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/progress.marks
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/clean
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/preinstall
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/preinstall
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 optor_stereo_visensor/CMakeFiles/optorusb.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/optorusb.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/optorusb.dir/rule
 .PHONY : optor_stereo_visensor/CMakeFiles/optorusb.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ optorusb: optor_stereo_visensor/CMakeFiles/optorusb.dir/rule
 
 # fast build rule for target.
 optorusb/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/build
 .PHONY : optorusb/fast
 
 # Convenience name for target.
 optor_stereo_visensor/CMakeFiles/optorimu.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/optorimu.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/optorimu.dir/rule
 .PHONY : optor_stereo_visensor/CMakeFiles/optorimu.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ optorimu: optor_stereo_visensor/CMakeFiles/optorimu.dir/rule
 
 # fast build rule for target.
 optorimu/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/build
 .PHONY : optorimu/fast
 
 # Convenience name for target.
 optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/rule
 .PHONY : optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ stereo_visensor_node: optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/
 
 # fast build rule for target.
 stereo_visensor_node/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build
 .PHONY : stereo_visensor_node/fast
 
 # Convenience name for target.
 optor_stereo_visensor/CMakeFiles/optorcam.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/optorcam.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/optorcam.dir/rule
 .PHONY : optor_stereo_visensor/CMakeFiles/optorcam.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ optorcam: optor_stereo_visensor/CMakeFiles/optorcam.dir/rule
 
 # fast build rule for target.
 optorcam/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/build
 .PHONY : optorcam/fast
 
 # Convenience name for target.
 optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/rule:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/rule
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/rule
 .PHONY : optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/rule
 
 # Convenience name for target.
@@ -237,7 +237,7 @@ stereo_visensor_cam: optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/ru
 
 # fast build rule for target.
 stereo_visensor_cam/fast:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build
 .PHONY : stereo_visensor_cam/fast
 
 src/optorcam.o: src/optorcam.cpp.o
@@ -246,7 +246,7 @@ src/optorcam.o: src/optorcam.cpp.o
 
 # target to build an object file
 src/optorcam.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/src/optorcam.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/src/optorcam.cpp.o
 .PHONY : src/optorcam.cpp.o
 
 src/optorcam.i: src/optorcam.cpp.i
@@ -255,7 +255,7 @@ src/optorcam.i: src/optorcam.cpp.i
 
 # target to preprocess a source file
 src/optorcam.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/src/optorcam.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/src/optorcam.cpp.i
 .PHONY : src/optorcam.cpp.i
 
 src/optorcam.s: src/optorcam.cpp.s
@@ -264,7 +264,7 @@ src/optorcam.s: src/optorcam.cpp.s
 
 # target to generate assembly for a file
 src/optorcam.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/src/optorcam.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/src/optorcam.cpp.s
 .PHONY : src/optorcam.cpp.s
 
 src/optorimu.o: src/optorimu.cpp.o
@@ -273,7 +273,7 @@ src/optorimu.o: src/optorimu.cpp.o
 
 # target to build an object file
 src/optorimu.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.o
 .PHONY : src/optorimu.cpp.o
 
 src/optorimu.i: src/optorimu.cpp.i
@@ -282,7 +282,7 @@ src/optorimu.i: src/optorimu.cpp.i
 
 # target to preprocess a source file
 src/optorimu.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.i
 .PHONY : src/optorimu.cpp.i
 
 src/optorimu.s: src/optorimu.cpp.s
@@ -291,7 +291,7 @@ src/optorimu.s: src/optorimu.cpp.s
 
 # target to generate assembly for a file
 src/optorimu.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/src/optorimu.cpp.s
 .PHONY : src/optorimu.cpp.s
 
 src/optorusb.o: src/optorusb.cpp.o
@@ -300,7 +300,7 @@ src/optorusb.o: src/optorusb.cpp.o
 
 # target to build an object file
 src/optorusb.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/src/optorusb.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/src/optorusb.cpp.o
 .PHONY : src/optorusb.cpp.o
 
 src/optorusb.i: src/optorusb.cpp.i
@@ -309,7 +309,7 @@ src/optorusb.i: src/optorusb.cpp.i
 
 # target to preprocess a source file
 src/optorusb.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/src/optorusb.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/src/optorusb.cpp.i
 .PHONY : src/optorusb.cpp.i
 
 src/optorusb.s: src/optorusb.cpp.s
@@ -318,7 +318,7 @@ src/optorusb.s: src/optorusb.cpp.s
 
 # target to generate assembly for a file
 src/optorusb.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/src/optorusb.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/src/optorusb.cpp.s
 .PHONY : src/optorusb.cpp.s
 
 src/stereo_visensor_cam.o: src/stereo_visensor_cam.cpp.o
@@ -327,7 +327,7 @@ src/stereo_visensor_cam.o: src/stereo_visensor_cam.cpp.o
 
 # target to build an object file
 src/stereo_visensor_cam.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/src/stereo_visensor_cam.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/src/stereo_visensor_cam.cpp.o
 .PHONY : src/stereo_visensor_cam.cpp.o
 
 src/stereo_visensor_cam.i: src/stereo_visensor_cam.cpp.i
@@ -336,7 +336,7 @@ src/stereo_visensor_cam.i: src/stereo_visensor_cam.cpp.i
 
 # target to preprocess a source file
 src/stereo_visensor_cam.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/src/stereo_visensor_cam.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/src/stereo_visensor_cam.cpp.i
 .PHONY : src/stereo_visensor_cam.cpp.i
 
 src/stereo_visensor_cam.s: src/stereo_visensor_cam.cpp.s
@@ -345,7 +345,7 @@ src/stereo_visensor_cam.s: src/stereo_visensor_cam.cpp.s
 
 # target to generate assembly for a file
 src/stereo_visensor_cam.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/src/stereo_visensor_cam.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/src/stereo_visensor_cam.cpp.s
 .PHONY : src/stereo_visensor_cam.cpp.s
 
 src/stereo_visensor_node.o: src/stereo_visensor_node.cpp.o
@@ -354,7 +354,7 @@ src/stereo_visensor_node.o: src/stereo_visensor_node.cpp.o
 
 # target to build an object file
 src/stereo_visensor_node.cpp.o:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/src/stereo_visensor_node.cpp.o
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/src/stereo_visensor_node.cpp.o
 .PHONY : src/stereo_visensor_node.cpp.o
 
 src/stereo_visensor_node.i: src/stereo_visensor_node.cpp.i
@@ -363,7 +363,7 @@ src/stereo_visensor_node.i: src/stereo_visensor_node.cpp.i
 
 # target to preprocess a source file
 src/stereo_visensor_node.cpp.i:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/src/stereo_visensor_node.cpp.i
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/src/stereo_visensor_node.cpp.i
 .PHONY : src/stereo_visensor_node.cpp.i
 
 src/stereo_visensor_node.s: src/stereo_visensor_node.cpp.s
@@ -372,7 +372,7 @@ src/stereo_visensor_node.s: src/stereo_visensor_node.cpp.s
 
 # target to generate assembly for a file
 src/stereo_visensor_node.cpp.s:
-	cd /home/matrice/dji_ws/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/src/stereo_visensor_node.cpp.s
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/src/stereo_visensor_node.cpp.s
 .PHONY : src/stereo_visensor_node.cpp.s
 
 # Help Target
@@ -419,6 +419,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/matrice/dji_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/matrice/dji-GNC-ROS/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

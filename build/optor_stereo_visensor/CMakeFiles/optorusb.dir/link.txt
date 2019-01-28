@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,liboptorusb.so -o /home/matrice/dji_ws/devel/lib/liboptorusb.so CMakeFiles/optorusb.dir/src/optorusb.cpp.o 
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,liboptorusb.so -o /home/matrice/dji-GNC-ROS/devel/lib/liboptorusb.so CMakeFiles/optorusb.dir/src/optorusb.cpp.o 

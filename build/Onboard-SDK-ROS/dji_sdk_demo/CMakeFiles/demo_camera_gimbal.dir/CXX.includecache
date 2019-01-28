@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Activation.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h
 ros/service_traits.h
 -
 dji_sdk/ActivationRequest.h
@@ -14,7 +14,7 @@ dji_sdk/ActivationRequest.h
 dji_sdk/ActivationResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/ActivationRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/ActivationRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/ActivationResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/ActivationResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/CameraAction.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraAction.h
 ros/service_traits.h
 -
 dji_sdk/CameraActionRequest.h
@@ -54,7 +54,7 @@ dji_sdk/CameraActionRequest.h
 dji_sdk/CameraActionResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/CameraActionRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraActionRequest.h
 string
 -
 vector
@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/CameraActionResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/CameraActionResponse.h
 string
 -
 vector
@@ -86,7 +86,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Gimbal.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Gimbal.h
 string
 -
 vector
@@ -104,9 +104,9 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_camera_gimbal.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_camera_gimbal.h
 unistd.h
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/unistd.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/unistd.h
 cstdint
 -
 iostream
@@ -122,7 +122,7 @@ ros/ros.h
 geometry_msgs/Vector3Stamped.h
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_camera_gimbal.cpp
 dji_sdk_demo/demo_camera_gimbal.h
 -
 

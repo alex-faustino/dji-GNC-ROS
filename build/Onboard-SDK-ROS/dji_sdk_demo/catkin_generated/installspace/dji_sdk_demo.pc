@@ -1,8 +1,8 @@
-prefix=/home/matrice/dji_ws/install
+prefix=/home/matrice/dji-GNC-ROS/install
 
 Name: dji_sdk_demo
 Description: Description of dji_sdk_demo
 Version: 0.1.9
 Cflags: 
-Libs: -L/home/matrice/dji_ws/install/lib 
+Libs: -L/home/matrice/dji-GNC-ROS/install/lib 
 Requires: 

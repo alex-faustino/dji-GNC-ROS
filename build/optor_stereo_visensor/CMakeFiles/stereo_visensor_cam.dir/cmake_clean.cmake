@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stereo_visensor_cam.dir/src/stereo_visensor_cam.cpp.o"
-  "/home/matrice/dji_ws/devel/lib/libstereo_visensor_cam.pdb"
-  "/home/matrice/dji_ws/devel/lib/libstereo_visensor_cam.so"
+  "/home/matrice/dji-GNC-ROS/devel/lib/libstereo_visensor_cam.pdb"
+  "/home/matrice/dji-GNC-ROS/devel/lib/libstereo_visensor_cam.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/optorimu.dir/src/optorimu.cpp.o"
-  "/home/matrice/dji_ws/devel/lib/liboptorimu.pdb"
-  "/home/matrice/dji_ws/devel/lib/liboptorimu.so"
+  "/home/matrice/dji-GNC-ROS/devel/lib/liboptorimu.pdb"
+  "/home/matrice/dji-GNC-ROS/devel/lib/liboptorimu.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/matrice/dji_ws/devel/include/dji_sdk/Activation.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/Activation.h
 ros/service_traits.h
 -
 dji_sdk/ActivationRequest.h
@@ -14,7 +14,7 @@ dji_sdk/ActivationRequest.h
 dji_sdk/ActivationResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/ActivationRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/ActivationRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/ActivationResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/ActivationResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControl.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControl.h
 ros/service_traits.h
 -
 dji_sdk/DroneArmControlRequest.h
@@ -54,7 +54,7 @@ dji_sdk/DroneArmControlRequest.h
 dji_sdk/DroneArmControlResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControlRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControlRequest.h
 string
 -
 vector
@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneArmControlResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneArmControlResponse.h
 string
 -
 vector
@@ -86,7 +86,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControl.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControl.h
 ros/service_traits.h
 -
 dji_sdk/DroneTaskControlRequest.h
@@ -94,7 +94,7 @@ dji_sdk/DroneTaskControlRequest.h
 dji_sdk/DroneTaskControlResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControlRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControlRequest.h
 string
 -
 vector
@@ -110,7 +110,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/DroneTaskControlResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/DroneTaskControlResponse.h
 string
 -
 vector
@@ -126,7 +126,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHotpointTask.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHotpointTask.h
 string
 -
 vector
@@ -142,7 +142,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpAction.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpAction.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpActionRequest.h
@@ -150,7 +150,7 @@ dji_sdk/MissionHpActionRequest.h
 dji_sdk/MissionHpActionResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpActionRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpActionRequest.h
 string
 -
 vector
@@ -166,7 +166,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpActionResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpActionResponse.h
 string
 -
 vector
@@ -182,7 +182,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadius.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadius.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpUpdateRadiusRequest.h
@@ -190,7 +190,7 @@ dji_sdk/MissionHpUpdateRadiusRequest.h
 dji_sdk/MissionHpUpdateRadiusResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadiusRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadiusRequest.h
 string
 -
 vector
@@ -206,7 +206,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateRadiusResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateRadiusResponse.h
 string
 -
 vector
@@ -222,7 +222,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRate.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRate.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpUpdateYawRateRequest.h
@@ -230,7 +230,7 @@ dji_sdk/MissionHpUpdateYawRateRequest.h
 dji_sdk/MissionHpUpdateYawRateResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRateRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRateRequest.h
 string
 -
 vector
@@ -246,7 +246,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpdateYawRateResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpdateYawRateResponse.h
 string
 -
 vector
@@ -262,7 +262,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUpload.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUpload.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpUploadRequest.h
@@ -270,7 +270,7 @@ dji_sdk/MissionHpUploadRequest.h
 dji_sdk/MissionHpUploadResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUploadRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUploadRequest.h
 string
 -
 vector
@@ -288,7 +288,7 @@ ros/message_operations.h
 dji_sdk/MissionHotpointTask.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionHpUploadResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionHpUploadResponse.h
 string
 -
 vector
@@ -304,7 +304,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypoint.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypoint.h
 string
 -
 vector
@@ -322,7 +322,7 @@ ros/message_operations.h
 dji_sdk/MissionWaypointAction.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointAction.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointAction.h
 string
 -
 vector
@@ -338,7 +338,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWaypointTask.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWaypointTask.h
 string
 -
 vector
@@ -356,7 +356,7 @@ ros/message_operations.h
 dji_sdk/MissionWaypoint.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpAction.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpAction.h
 ros/service_traits.h
 -
 dji_sdk/MissionWpActionRequest.h
@@ -364,7 +364,7 @@ dji_sdk/MissionWpActionRequest.h
 dji_sdk/MissionWpActionResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpActionRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpActionRequest.h
 string
 -
 vector
@@ -380,7 +380,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpActionResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpActionResponse.h
 string
 -
 vector
@@ -396,7 +396,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUpload.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUpload.h
 ros/service_traits.h
 -
 dji_sdk/MissionWpUploadRequest.h
@@ -404,7 +404,7 @@ dji_sdk/MissionWpUploadRequest.h
 dji_sdk/MissionWpUploadResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUploadRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUploadRequest.h
 string
 -
 vector
@@ -422,7 +422,7 @@ ros/message_operations.h
 dji_sdk/MissionWaypointTask.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MissionWpUploadResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MissionWpUploadResponse.h
 string
 -
 vector
@@ -438,7 +438,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/MobileData.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/MobileData.h
 string
 -
 vector
@@ -454,7 +454,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersion.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersion.h
 ros/service_traits.h
 -
 dji_sdk/QueryDroneVersionRequest.h
@@ -462,7 +462,7 @@ dji_sdk/QueryDroneVersionRequest.h
 dji_sdk/QueryDroneVersionResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersionRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersionRequest.h
 string
 -
 vector
@@ -478,7 +478,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/QueryDroneVersionResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/QueryDroneVersionResponse.h
 string
 -
 vector
@@ -494,7 +494,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthority.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthority.h
 ros/service_traits.h
 -
 dji_sdk/SDKControlAuthorityRequest.h
@@ -502,7 +502,7 @@ dji_sdk/SDKControlAuthorityRequest.h
 dji_sdk/SDKControlAuthorityResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthorityRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthorityRequest.h
 string
 -
 vector
@@ -518,7 +518,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SDKControlAuthorityResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SDKControlAuthorityResponse.h
 string
 -
 vector
@@ -534,7 +534,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SendMobileData.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileData.h
 ros/service_traits.h
 -
 dji_sdk/SendMobileDataRequest.h
@@ -542,7 +542,7 @@ dji_sdk/SendMobileDataRequest.h
 dji_sdk/SendMobileDataResponse.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SendMobileDataRequest.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileDataRequest.h
 string
 -
 vector
@@ -558,7 +558,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/devel/include/dji_sdk/SendMobileDataResponse.h
+/home/matrice/dji-GNC-ROS/devel/include/dji_sdk/SendMobileDataResponse.h
 string
 -
 vector
@@ -574,7 +574,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk/include/dji_sdk/dji_sdk.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/include/dji_sdk/dji_sdk.h
 djiosdk/dji_control.hpp
 -
 djiosdk/dji_status.hpp
@@ -582,7 +582,7 @@ djiosdk/dji_status.hpp
 djiosdk/dji_version.hpp
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_mobile_comm.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/include/dji_sdk_demo/demo_mobile_comm.h
 dji_sdk/MobileData.h
 -
 sensor_msgs/Joy.h
@@ -628,11 +628,11 @@ tf/tf.h
 djiosdk/dji_vehicle.hpp
 -
 
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_mobile_comm.cpp
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/demo_mobile_comm.cpp
 dji_sdk_demo/demo_mobile_comm.h
 -
 dji_sdk/dji_sdk.h
-/home/matrice/dji_ws/src/Onboard-SDK-ROS/dji_sdk_demo/src/dji_sdk/dji_sdk.h
+/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/src/dji_sdk/dji_sdk.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string
