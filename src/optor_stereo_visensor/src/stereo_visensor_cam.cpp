@@ -130,7 +130,8 @@ void StereoVisensorCam:: imu_data_stream( )
   {
     if(visensor_imu_have_fresh_data())
     {
-      visensor_get_imudata_latest(&imudata);
+		//std::cout << "made it here" << std::endl;
+		visensor_get_imudata_latest(&imudata);
       
       /*
        *       printf("IMUTime:%8.9f, Gyr: %8.4f,%8.4f,%8.4f, Acc: %8.4f,%8.4f,%8.4f, Quat(WXYZ): %8.4f,%8.4f,%8.4f,%8.4f\n",
@@ -144,7 +145,7 @@ void StereoVisensorCam:: imu_data_stream( )
       double  tmp =  floor(imudata.timestamp);
       imu_time.sec=(__time_t) tmp;
       imu_time.nsec=(__time_t)((imudata.timestamp - tmp)* 1e+9);
-      //std::cout << "sec: " << imu_time.sec << "   -----nsec:" << imu_time.nsec << std::endl;
+      std::cout << "sec: " << imu_time.sec << "   -----nsec:" << imu_time.nsec << std::endl;
       
       imu_msg.header.frame_id = "/imu";
       imu_msg.header.stamp = imu_time;
