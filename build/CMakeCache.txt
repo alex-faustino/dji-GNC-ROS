@@ -324,7 +324,7 @@ NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
 OPENCV_CONTRIB_IMG_PROC:PATH=OPENCV_CONTRIB_IMG_PROC-NOTFOUND
 
 //Path to a file.
-OPENCV_VIZ:PATH=OPENCV_VIZ-NOTFOUND
+OPENCV_VIZ:PATH=/usr/local/include/opencv2/viz
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/opt/ros/kinetic/share/OpenCV-3.3.1-dev
@@ -382,6 +382,12 @@ cv_bridge_DIR:PATH=/opt/ros/kinetic/share/cv_bridge/cmake
 
 //The directory containing a CMake configuration file for darknet_ros.
 darknet_ros_DIR:PATH=darknet_ros_DIR-NOTFOUND
+
+//Value Computed by CMake
+dji_m100_rob560_BINARY_DIR:STATIC=/home/matrice/dji-GNC-ROS/build/DJI_M100
+
+//Value Computed by CMake
+dji_m100_rob560_SOURCE_DIR:STATIC=/home/matrice/dji-GNC-ROS/src/DJI_M100
 
 //Value Computed by CMake
 dji_sdk_BINARY_DIR:STATIC=/home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk
@@ -584,6 +590,8 @@ CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Path to cache edit program executable.
+CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/cmake-gui
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
