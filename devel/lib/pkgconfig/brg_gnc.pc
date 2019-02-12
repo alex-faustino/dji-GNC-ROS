@@ -1,0 +1,8 @@
+prefix=/home/matrice/dji-GNC-ROS/devel
+
+Name: brg_gnc
+Description: Description of brg_gnc
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/matrice/dji-GNC-ROS/devel/lib 
+Requires: 

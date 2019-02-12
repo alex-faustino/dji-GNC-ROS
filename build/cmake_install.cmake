@@ -119,6 +119,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/matrice/dji-GNC-ROS/build/gtest/cmake_install.cmake")
   include("/home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk/cmake_install.cmake")
   include("/home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo/cmake_install.cmake")
+  include("/home/matrice/dji-GNC-ROS/build/brg_gnc/cmake_install.cmake")
   include("/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/cmake_install.cmake")
 
 endif()

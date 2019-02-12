@@ -1453,6 +1453,32 @@ demo_mission/fast:
 .PHONY : demo_mission/fast
 
 #=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f brg_gnc/CMakeFiles/_catkin_empty_exported_target.dir/build.make brg_gnc/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
+# Target rules for targets named endurance_exp_orbit
+
+# Build rule for target.
+endurance_exp_orbit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 endurance_exp_orbit
+.PHONY : endurance_exp_orbit
+
+# fast build rule for target.
+endurance_exp_orbit/fast:
+	$(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build
+.PHONY : endurance_exp_orbit/fast
+
+#=============================================================================
 # Target rules for targets named optorusb
 
 # Build rule for target.
@@ -1629,6 +1655,8 @@ help:
 	@echo "... demo_mfio"
 	@echo "... demo_local_position_control"
 	@echo "... demo_mission"
+	@echo "... _catkin_empty_exported_target"
+	@echo "... endurance_exp_orbit"
 	@echo "... optorusb"
 	@echo "... optorimu"
 	@echo "... stereo_visensor_node"

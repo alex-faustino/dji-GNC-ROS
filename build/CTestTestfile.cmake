@@ -7,4 +7,5 @@
 subdirs(gtest)
 subdirs(Onboard-SDK-ROS/dji_sdk)
 subdirs(Onboard-SDK-ROS/dji_sdk_demo)
+subdirs(brg_gnc)
 subdirs(optor_stereo_visensor)
