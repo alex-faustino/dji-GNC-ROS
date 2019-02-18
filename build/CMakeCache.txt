@@ -371,6 +371,8 @@ actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
 //Value Computed by CMake
 brg_gnc_BINARY_DIR:STATIC=/home/matrice/dji-GNC-ROS/build/brg_gnc
 
+brg_gnc_DIR:PATH=
+
 //Value Computed by CMake
 brg_gnc_SOURCE_DIR:STATIC=/home/matrice/dji-GNC-ROS/src/brg_gnc
 

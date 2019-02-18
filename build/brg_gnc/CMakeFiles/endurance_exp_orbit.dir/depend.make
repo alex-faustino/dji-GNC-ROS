@@ -81,6 +81,7 @@ brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/r
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/ros/kinetic/include/ros/wall_timer.h
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
+brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/ros/kinetic/include/sensor_msgs/BatteryState.h
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/ros/kinetic/include/sensor_msgs/NavSatFix.h
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/ros/kinetic/include/sensor_msgs/NavSatStatus.h
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h

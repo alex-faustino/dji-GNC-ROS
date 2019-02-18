@@ -329,6 +329,8 @@ ros/ros.h
 -
 sensor_msgs/NavSatFix.h
 -
+sensor_msgs/BatteryState.h
+-
 
 /home/matrice/dji-GNC-ROS/src/brg_gnc/src/endurance_exp_orbit.cpp
 brg_gnc/endurance_exp_orbit.h
@@ -979,6 +981,24 @@ ros/forwards.h
 /opt/ros/kinetic/include/ros/ros/forwards.h
 
 /opt/ros/kinetic/include/rosconsole/macros_generated.h
+
+/opt/ros/kinetic/include/sensor_msgs/BatteryState.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
 
 /opt/ros/kinetic/include/sensor_msgs/NavSatFix.h
 string

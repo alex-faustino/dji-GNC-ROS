@@ -109,7 +109,7 @@ set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+# INCLUDE_DIRS include
 #  LIBRARIES brg_gnc
 #  CATKIN_DEPENDS dji_sdk geometry_msgs image_transport roscpp rospy std_msgs
 #  DEPENDS system_lib
@@ -162,7 +162,8 @@ target_link_libraries(endurance_exp_orbit
         ${catkin_LIBRARIES}
         ${DJIOSDK_LIBRARIES}
         )
-add_dependencies(endurance_exp_orbit dji_sdk_generate_messages_cpp)
+add_dependencies(endurance_exp_orbit 
+		dji_sdk_generate_messages_cpp)
 
 #############
 ## Install ##
