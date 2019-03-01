@@ -26,19 +26,31 @@ sensor_msgs::BatteryState 	battery_state;
 ros::Subscriber		   		battery_state_subscriber;
 int INIT_CAPACITY;
 int FULL_CAPACITY = 4500;
+//FILE *batteryDataFile;
+FILE *gpsPosDataFile;
 
 void gpsPosCallback(const sensor_msgs::NavSatFix::ConstPtr& msg)
 {
 	gps_pos = *msg;
+	
+	// Print time, lat, and long to text file
+	fprintf(gpsPosDataFile,"%f\t%f\t%f\t%f\n",
+			gps_pos.header.stamp.toSec(),
+			gps_pos.latitude,
+			gps_pos.longitude,
+			gps_pos.altitude);
 }
 
 void batteryStateCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
 {
 	battery_state = *msg;
   
-	ROS_INFO("Battery Percentage:\t %f", battery_state.percentage);
-	if ((INIT_CAPACITY - (battery_state.percentage*FULL_CAPACITY)) > 450.0)
+	//ROS_INFO("Battery consumed:\t %f",
+	//	     INIT_CAPACITY - ((battery_state.percentage/100.0)*FULL_CAPACITY));
+	if ((INIT_CAPACITY - ((battery_state.percentage/100.0)*FULL_CAPACITY)) 
+		 >= 450.0)
 	{
+		fclose(gpsPosDataFile);
 		endHotpointMission();
 	}
 }
@@ -110,7 +122,7 @@ bool endHotpointMission()
 		return false;
 	}
 	
-	
+	ros::Duration(30).sleep();
 	
 	ROS_INFO("Landing");
 	if (land().result)
@@ -122,6 +134,9 @@ bool endHotpointMission()
 		ROS_WARN("Failed sending land command");
 		return false;
 	}
+	
+	//fclose(batteryDataFile);
+	//fclose(gpsPosDataFile);
 }
 
 void setHotPointInit(dji_sdk::MissionHotpointTask& hotpointTask,
@@ -130,7 +145,7 @@ void setHotPointInit(dji_sdk::MissionHotpointTask& hotpointTask,
 {
 	hotpointTask.latitude      = gps_pos.latitude;
 	hotpointTask.longitude     = gps_pos.longitude;
-	hotpointTask.altitude      = 20;
+	hotpointTask.altitude      = 30;
 	hotpointTask.radius        = initialRadius;
 	hotpointTask.angular_speed = initialAngularSpeed;
 	hotpointTask.is_clockwise  = 0;
@@ -321,7 +336,10 @@ int main(int argc, char** argv)
 	float	initLinVelocity;
 	float	initAngularSpeed;
 	int     responseTimeout = 1;
-
+	int		b, g;
+	//char batteryDataFileName [64];
+	char gpsPosDataFileName [64];
+	
 	// Display interactive prompt get experiment parameters
 	std::cout << "Enter orbit parameters" << std::endl;
 	std::cout << "Orbit radius in meters: ";
@@ -333,6 +351,16 @@ int main(int argc, char** argv)
 	std::cout << "Enter battery parameters" << std::endl;
 	std::cout << "Enter current battery capacity in mAh: ";
 	std::cin >> INIT_CAPACITY;
+	
+	// Create data files to write to
+	/*b = sprintf(batteryDataFileName, "%dm-%dmps-battery.txt",
+				initRadius, int(initLinVelocity));
+	batteryDataFile = fopen(batteryDataFileName, "w");
+	*/ 
+	
+	g = sprintf(gpsPosDataFileName, "%dm-%dmps-gps-pos.txt",
+				initRadius, int(initLinVelocity));
+	gpsPosDataFile = fopen(gpsPosDataFileName, "w");
 	
     // Create battery monitor
     // BatteryMonitor batteryMonitor(initCapacity);

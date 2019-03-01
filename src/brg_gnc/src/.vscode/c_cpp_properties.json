@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": "/home/matrice/dji-GNC-ROS/build/compile_commands.json",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

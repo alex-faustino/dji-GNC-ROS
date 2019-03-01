@@ -13,6 +13,7 @@
 // System includes
 #include "unistd.h"
 #include <iostream>
+#include <stdio.h>
 
 // DJI SDK includes
 #include <dji_sdk/Activation.h>

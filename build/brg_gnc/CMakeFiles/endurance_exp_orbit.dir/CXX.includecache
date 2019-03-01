@@ -309,6 +309,8 @@ unistd.h
 /home/matrice/dji-GNC-ROS/src/brg_gnc/include/brg_gnc/unistd.h
 iostream
 -
+stdio.h
+-
 dji_sdk/Activation.h
 -
 dji_sdk/DroneTaskControl.h
