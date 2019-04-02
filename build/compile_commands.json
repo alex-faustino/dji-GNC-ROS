@@ -110,6 +110,11 @@
   "file": "/home/matrice/dji-GNC-ROS/src/brg_gnc/src/endurance_exp_orbit.cpp"
 },
 {
+  "directory": "/home/matrice/dji-GNC-ROS/build/brg_gnc",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"brg_gnc\\\" -I/home/matrice/dji-GNC-ROS/src/brg_gnc/include -I/home/matrice/dji-GNC-ROS/devel/include -I/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11    -o CMakeFiles/endurance_exp_orbit.dir/src/battery_monitor.cpp.o -c /home/matrice/dji-GNC-ROS/src/brg_gnc/src/battery_monitor.cpp",
+  "file": "/home/matrice/dji-GNC-ROS/src/brg_gnc/src/battery_monitor.cpp"
+},
+{
   "directory": "/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor",
   "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"optor_stereo_visensor_ros\\\" -Doptorusb_EXPORTS -I/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv  -fPIC   -o CMakeFiles/optorusb.dir/src/optorusb.cpp.o -c /home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/src/optorusb.cpp",
   "file": "/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/src/optorusb.cpp"

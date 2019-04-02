@@ -157,7 +157,8 @@ include_directories(
 # )
 
 add_executable(endurance_exp_orbit
-        src/endurance_exp_orbit.cpp)
+        src/endurance_exp_orbit.cpp
+	src/battery_monitor.cpp)
 target_link_libraries(endurance_exp_orbit
         ${catkin_LIBRARIES}
         ${DJIOSDK_LIBRARIES}

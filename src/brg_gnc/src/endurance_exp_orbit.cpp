@@ -8,7 +8,7 @@
  */
 
 #include <brg_gnc/endurance_exp_orbit.h>
-// #include <brg_gnc/battery_monitor.h>
+#include <brg_gnc/battery_monitor.h>
 
 using namespace DJI::OSDK;
 
@@ -26,33 +26,61 @@ sensor_msgs::BatteryState 	battery_state;
 ros::Subscriber		   		battery_state_subscriber;
 int INIT_CAPACITY;
 int FULL_CAPACITY = 4500;
-//FILE *batteryDataFile;
+int BASE_CAPACITY;
+int CURRENT_CAPACITY;
+float CUTOFF;
+bool COLLECT_DATA = false;
+FILE *batteryDataFile;
 FILE *gpsPosDataFile;
 
 void gpsPosCallback(const sensor_msgs::NavSatFix::ConstPtr& msg)
 {
 	gps_pos = *msg;
 	
-	// Print time, lat, and long to text file
-	fprintf(gpsPosDataFile,"%f\t%f\t%f\t%f\n",
-			gps_pos.header.stamp.toSec(),
-			gps_pos.latitude,
-			gps_pos.longitude,
-			gps_pos.altitude);
+	if (COLLECT_DATA) 
+	{
+		// Print time, lat, and long to text file
+		fprintf(gpsPosDataFile,"%f\t%f\t%f\t%f\n",
+				gps_pos.header.stamp.toSec(),
+				gps_pos.latitude,
+				gps_pos.longitude,
+				gps_pos.altitude);
+	}
 }
 
 void batteryStateCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
-{
+{	
 	battery_state = *msg;
   
-	//ROS_INFO("Battery consumed:\t %f",
-	//	     INIT_CAPACITY - ((battery_state.percentage/100.0)*FULL_CAPACITY));
-	if ((INIT_CAPACITY - ((battery_state.percentage/100.0)*FULL_CAPACITY)) 
-		 >= 450.0)
+	CURRENT_CAPACITY = (battery_state.percentage/100.0)*FULL_CAPACITY;
+
+	if ((CURRENT_CAPACITY == INIT_CAPACITY) || (INIT_CAPACITY == NAN))
 	{
-		fclose(gpsPosDataFile);
-		endHotpointMission();
+		return;
+	} 
+	else if (((INIT_CAPACITY - CURRENT_CAPACITY) >= 90.0) && (!COLLECT_DATA)) 
+	{
+		BASE_CAPACITY = CURRENT_CAPACITY;
+		COLLECT_DATA = true;
+	} 
+	else 
+	{
+		if ((BASE_CAPACITY - CURRENT_CAPACITY*FULL_CAPACITY)) >= CUTOFF)
+		{
+			COLLECT_DATA = false;
+			fclose(gpsPosDataFile);
+			endHotpointMission();
+		}
 	}
+
+	if (COLLECT_DATA) 
+	{
+		// Print time, lat, and long to text file
+		fprintf(batteryDataFile,"%f\t%f\n",
+				battery_state.header.stamp.toSec(),
+				CURRENT_CAPACITY);
+	}
+}
 }
 
 bool runHotpointMission(int initialRadius,
@@ -92,6 +120,9 @@ bool runHotpointMission(int initialRadius,
 		ROS_WARN("Failed sending mission start command");
 		return false;
 	}
+
+	INIT_CAPACITY = CURRENT_CAPACITY;
+	ROS_INFO("Initial battery capacity set");
 
 	return true;
 }
@@ -135,8 +166,8 @@ bool endHotpointMission()
 		return false;
 	}
 	
-	//fclose(batteryDataFile);
-	//fclose(gpsPosDataFile);
+	fclose(batteryDataFile);
+	fclose(gpsPosDataFile);
 }
 
 void setHotPointInit(dji_sdk::MissionHotpointTask& hotpointTask,
@@ -337,7 +368,7 @@ int main(int argc, char** argv)
 	float	initAngularSpeed;
 	int     responseTimeout = 1;
 	int		b, g;
-	//char batteryDataFileName [64];
+	char batteryDataFileName [64];
 	char gpsPosDataFileName [64];
 	
 	// Display interactive prompt get experiment parameters
@@ -349,21 +380,21 @@ int main(int argc, char** argv)
 	std::cin >> initLinVelocity;
 	
 	std::cout << "Enter battery parameters" << std::endl;
-	std::cout << "Enter current battery capacity in mAh: ";
-	std::cin >> INIT_CAPACITY;
-	
+	std::cout << "Enter cutoff battery capacity in mAh: ";
+	std::cin >> CUTOFF;
+
 	// Create data files to write to
-	/*b = sprintf(batteryDataFileName, "%dm-%dmps-battery.txt",
+	b = sprintf(batteryDataFileName, "%dm-%dmps-battery.txt",
 				initRadius, int(initLinVelocity));
 	batteryDataFile = fopen(batteryDataFileName, "w");
-	*/ 
+	
 	
 	g = sprintf(gpsPosDataFileName, "%dm-%dmps-gps-pos.txt",
 				initRadius, int(initLinVelocity));
 	gpsPosDataFile = fopen(gpsPosDataFileName, "w");
 	
     // Create battery monitor
-    // BatteryMonitor batteryMonitor(initCapacity);
+    // BatteryMonitor BatteryMonitor(INIT_CAPACITY);
 
 	// ROS stuff
 	hotpoint_upload_service = 

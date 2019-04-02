@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/matrice/dji-GNC-ROS/src/brg_gnc/src/battery_monitor.cpp" "/home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/battery_monitor.cpp.o"
-  "/home/matrice/dji-GNC-ROS/src/brg_gnc/src/endurance_exp_orbit.cpp" "/home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o"
+  "/home/matrice/dji-GNC-ROS/src/brg_gnc/src/battery_monitor.cpp" "/home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/battery_monitor.dir/src/battery_monitor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
