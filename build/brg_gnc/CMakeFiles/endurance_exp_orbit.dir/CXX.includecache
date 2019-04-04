@@ -304,34 +304,6 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/matrice/dji-GNC-ROS/src/brg_gnc/include/brg_gnc/battery_monitor.h
-unistd.h
-/home/matrice/dji-GNC-ROS/src/brg_gnc/include/brg_gnc/unistd.h
-iostream
--
-dji_sdk/Activation.h
--
-dji_sdk/DroneTaskControl.h
--
-dji_sdk/SDKControlAuthority.h
--
-dji_sdk/MissionHpAction.h
--
-dji_sdk/MissionHpUpload.h
--
-dji_sdk/MissionHpUpdateRadius.h
--
-dji_sdk/MissionHpUpdateYawRate.h
--
-djiosdk/dji_vehicle.hpp
--
-ros/ros.h
--
-sensor_msgs/NavSatFix.h
--
-sensor_msgs/BatteryState.h
--
-
 /home/matrice/dji-GNC-ROS/src/brg_gnc/include/brg_gnc/endurance_exp_orbit.h
 unistd.h
 /home/matrice/dji-GNC-ROS/src/brg_gnc/include/brg_gnc/unistd.h
@@ -362,14 +334,8 @@ sensor_msgs/NavSatFix.h
 sensor_msgs/BatteryState.h
 -
 
-/home/matrice/dji-GNC-ROS/src/brg_gnc/src/battery_monitor.cpp
-brg_gnc/battery_monitor.h
--
-
 /home/matrice/dji-GNC-ROS/src/brg_gnc/src/endurance_exp_orbit.cpp
 brg_gnc/endurance_exp_orbit.h
--
-brg_gnc/battery_monitor.h
 -
 
 /opt/ros/kinetic/include/ros/advertise_options.h

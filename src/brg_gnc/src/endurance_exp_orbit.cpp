@@ -8,7 +8,6 @@
  */
 
 #include <brg_gnc/endurance_exp_orbit.h>
-#include <brg_gnc/battery_monitor.h>
 
 using namespace DJI::OSDK;
 
@@ -24,10 +23,9 @@ sensor_msgs::NavSatFix 		gps_pos;
 ros::Subscriber        		gps_pos_subscriber;
 sensor_msgs::BatteryState 	battery_state;
 ros::Subscriber		   		battery_state_subscriber;
-int INIT_CAPACITY;
-int FULL_CAPACITY = 4500;
-int BASE_CAPACITY;
-int CURRENT_CAPACITY;
+float INIT_SOC;
+float BASE_SOC;
+float CURRENT_SOC;
 float CUTOFF;
 bool COLLECT_DATA = false;
 FILE *batteryDataFile;
@@ -52,20 +50,21 @@ void batteryStateCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
 {	
 	battery_state = *msg;
   
-	CURRENT_CAPACITY = (battery_state.percentage/100.0)*FULL_CAPACITY;
+	CURRENT_SOC = battery_state.percentage;
 
-	if ((CURRENT_CAPACITY == INIT_CAPACITY) || (INIT_CAPACITY == NAN))
+	if ((CURRENT_SOC == INIT_SOC) || (INIT_SOC == NAN))
 	{
 		return;
 	} 
-	else if (((INIT_CAPACITY - CURRENT_CAPACITY) >= 90.0) && (!COLLECT_DATA)) 
+	else if (((INIT_SOC - CURRENT_SOC) >= 5.0) && (!COLLECT_DATA)) 
 	{
-		BASE_CAPACITY = CURRENT_CAPACITY;
+		BASE_SOC = CURRENT_SOC;
+		ROS_INFO("Baseline battery capacity set: %f", BASE_SOC);
 		COLLECT_DATA = true;
 	} 
 	else 
 	{
-		if ((BASE_CAPACITY - CURRENT_CAPACITY*FULL_CAPACITY)) >= CUTOFF)
+		if ((BASE_SOC - CURRENT_SOC) >= CUTOFF)
 		{
 			COLLECT_DATA = false;
 			fclose(gpsPosDataFile);
@@ -78,10 +77,10 @@ void batteryStateCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
 		// Print time, lat, and long to text file
 		fprintf(batteryDataFile,"%f\t%f\n",
 				battery_state.header.stamp.toSec(),
-				CURRENT_CAPACITY);
+				CURRENT_SOC);
 	}
 }
-}
+
 
 bool runHotpointMission(int initialRadius,
 					    float initialAngularSpeed,
@@ -121,8 +120,8 @@ bool runHotpointMission(int initialRadius,
 		return false;
 	}
 
-	INIT_CAPACITY = CURRENT_CAPACITY;
-	ROS_INFO("Initial battery capacity set");
+	INIT_SOC = CURRENT_SOC;
+	ROS_INFO("Initial battery capacity set: %f", INIT_SOC);
 
 	return true;
 }
@@ -380,7 +379,7 @@ int main(int argc, char** argv)
 	std::cin >> initLinVelocity;
 	
 	std::cout << "Enter battery parameters" << std::endl;
-	std::cout << "Enter cutoff battery capacity in mAh: ";
+	std::cout << "Enter cutoff battery SoC in \%: ";
 	std::cin >> CUTOFF;
 
 	// Create data files to write to

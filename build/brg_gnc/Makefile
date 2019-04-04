@@ -195,33 +195,6 @@ endurance_exp_orbit/fast:
 	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build
 .PHONY : endurance_exp_orbit/fast
 
-src/battery_monitor.o: src/battery_monitor.cpp.o
-
-.PHONY : src/battery_monitor.o
-
-# target to build an object file
-src/battery_monitor.cpp.o:
-	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/battery_monitor.cpp.o
-.PHONY : src/battery_monitor.cpp.o
-
-src/battery_monitor.i: src/battery_monitor.cpp.i
-
-.PHONY : src/battery_monitor.i
-
-# target to preprocess a source file
-src/battery_monitor.cpp.i:
-	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/battery_monitor.cpp.i
-.PHONY : src/battery_monitor.cpp.i
-
-src/battery_monitor.s: src/battery_monitor.cpp.s
-
-.PHONY : src/battery_monitor.s
-
-# target to generate assembly for a file
-src/battery_monitor.cpp.s:
-	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/battery_monitor.cpp.s
-.PHONY : src/battery_monitor.cpp.s
-
 src/endurance_exp_orbit.o: src/endurance_exp_orbit.cpp.o
 
 .PHONY : src/endurance_exp_orbit.o
@@ -264,9 +237,6 @@ help:
 	@echo "... endurance_exp_orbit"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... src/battery_monitor.o"
-	@echo "... src/battery_monitor.i"
-	@echo "... src/battery_monitor.s"
 	@echo "... src/endurance_exp_orbit.o"
 	@echo "... src/endurance_exp_orbit.i"
 	@echo "... src/endurance_exp_orbit.s"

@@ -500,7 +500,7 @@ Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_genpy.dir/all: Onboard-SDK-ROS/dji_sd
 
 # Build rule for subdir invocation for target.
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 0
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_genpy.dir/rule
@@ -567,12 +567,12 @@ Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: Onboard
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: Onboard-SDK-ROS/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpAction.dir/all
 	$(MAKE) -f Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/build.make Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/depend
 	$(MAKE) -f Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/build.make Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85 "Built target dji_sdk_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86 "Built target dji_sdk_generate_messages_py"
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 0
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/rule
@@ -2095,7 +2095,7 @@ clean: Onboard-SDK-ROS/dji_sdk/CMakeFiles/std_msgs_generate_messages_py.dir/clea
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_node.dir/all: Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all
 	$(MAKE) -f Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_node.dir/depend
 	$(MAKE) -f Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=86,87,88,89 "Built target dji_sdk_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=87,88,89,90 "Built target dji_sdk_node"
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_node.dir/all
 
 # Include target in all.
@@ -2730,7 +2730,7 @@ all: Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 81
 	$(MAKE) -f CMakeFiles/Makefile2 Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 0
 .PHONY : Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/rule
@@ -3698,7 +3698,7 @@ clean: brg_gnc/CMakeFiles/_catkin_empty_exported_target.dir/clean
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/all: Onboard-SDK-ROS/dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all
 	$(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/depend
 	$(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num=90 "Built target endurance_exp_orbit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matrice/dji-GNC-ROS/build/CMakeFiles --progress-num= "Built target endurance_exp_orbit"
 .PHONY : brg_gnc/CMakeFiles/endurance_exp_orbit.dir/all
 
 # Include target in all.
@@ -3708,7 +3708,7 @@ all: brg_gnc/CMakeFiles/endurance_exp_orbit.dir/all
 
 # Build rule for subdir invocation for target.
 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 brg_gnc/CMakeFiles/endurance_exp_orbit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrice/dji-GNC-ROS/build/CMakeFiles 0
 .PHONY : brg_gnc/CMakeFiles/endurance_exp_orbit.dir/rule

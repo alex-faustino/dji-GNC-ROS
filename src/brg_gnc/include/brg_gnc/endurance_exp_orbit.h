@@ -32,9 +32,6 @@
 #include <sensor_msgs/NavSatFix.h>
 #include <sensor_msgs/BatteryState.h>
 
-// BRG GNC includes
-// #include <brg_gnc/battery_monitor.h>
-
 #define C_EARTH (double)6378137.0
 #define C_PI (double)3.141592653589793
 #define DEG2RAD(DEG) ((DEG) * ((C_PI) / (180.0)))
