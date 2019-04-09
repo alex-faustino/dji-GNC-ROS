@@ -383,13 +383,13 @@ int main(int argc, char** argv)
 	std::cin >> CUTOFF;
 
 	// Create data files to write to
-	b = sprintf(batteryDataFileName, "%dm-%dmps-battery.txt",
-				initRadius, int(initLinVelocity));
+	b = sprintf(batteryDataFileName, "%dm-%dmps-%dpercent-battery.txt",
+				initRadius, int(initLinVelocity), int(CUTOFF));
 	batteryDataFile = fopen(batteryDataFileName, "w");
 	
 	
-	g = sprintf(gpsPosDataFileName, "%dm-%dmps-gps-pos.txt",
-				initRadius, int(initLinVelocity));
+	g = sprintf(gpsPosDataFileName, "%dm-%dmps-%dpercent-gps-pos.txt",
+				initRadius, int(initLinVelocity), int(CUTOFF));
 	gpsPosDataFile = fopen(gpsPosDataFileName, "w");
 	
     // Create battery monitor
