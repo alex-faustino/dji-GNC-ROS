@@ -17,8 +17,5 @@ ROS Kinetic
 
 ##TODO
 
-* Write hotpoint mission manager with battery monitoring
-* Verify with DJI simulator
 * Dynamic System ID
-* Outdoor flight test
 * Reintegrate vision system
