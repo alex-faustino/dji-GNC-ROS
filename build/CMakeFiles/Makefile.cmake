@@ -23,8 +23,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/order_packages.cmake"
-  "optor_stereo_visensor/catkin_generated/ordered_paths.cmake"
-  "optor_stereo_visensor/catkin_generated/package.cmake"
   "/home/matrice/dji-GNC-ROS/devel/share/dji_sdk/cmake/dji_sdk-msg-extras.cmake"
   "/home/matrice/dji-GNC-ROS/devel/share/dji_sdk/cmake/dji_sdk-msg-paths.cmake"
   "/home/matrice/dji-GNC-ROS/devel/share/dji_sdk/cmake/dji_sdkConfig-version.cmake"
@@ -40,8 +38,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk_demo/package.xml"
   "/home/matrice/dji-GNC-ROS/src/brg_gnc/CMakeLists.txt"
   "/home/matrice/dji-GNC-ROS/src/brg_gnc/package.xml"
-  "/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/CMakeLists.txt"
-  "/home/matrice/dji-GNC-ROS/src/optor_stereo_visensor/package.xml"
   "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake"
@@ -114,9 +110,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/class_loader/cmake/class_loaderConfig.cmake"
   "/opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake"
   "/opt/ros/kinetic/share/cpp_common/cmake/cpp_commonConfig.cmake"
-  "/opt/ros/kinetic/share/cv_bridge/cmake/cv_bridge-extras.cmake"
-  "/opt/ros/kinetic/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake"
-  "/opt/ros/kinetic/share/cv_bridge/cmake/cv_bridgeConfig.cmake"
   "/opt/ros/kinetic/share/gencpp/cmake/gencpp-extras.cmake"
   "/opt/ros/kinetic/share/gencpp/cmake/gencppConfig-version.cmake"
   "/opt/ros/kinetic/share/gencpp/cmake/gencppConfig.cmake"
@@ -252,7 +245,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Onboard-SDK-ROS/dji_sdk/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/CMakeDirectoryInformation.cmake"
   "brg_gnc/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "optor_stereo_visensor/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -358,9 +350,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/DependInfo.cmake"
   "brg_gnc/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "brg_gnc/CMakeFiles/endurance_exp_orbit.dir/DependInfo.cmake"
-  "optor_stereo_visensor/CMakeFiles/optorusb.dir/DependInfo.cmake"
-  "optor_stereo_visensor/CMakeFiles/optorimu.dir/DependInfo.cmake"
-  "optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/DependInfo.cmake"
-  "optor_stereo_visensor/CMakeFiles/optorcam.dir/DependInfo.cmake"
-  "optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/DependInfo.cmake"
   )

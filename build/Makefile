@@ -1478,71 +1478,6 @@ endurance_exp_orbit/fast:
 	$(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build
 .PHONY : endurance_exp_orbit/fast
 
-#=============================================================================
-# Target rules for targets named optorusb
-
-# Build rule for target.
-optorusb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 optorusb
-.PHONY : optorusb
-
-# fast build rule for target.
-optorusb/fast:
-	$(MAKE) -f optor_stereo_visensor/CMakeFiles/optorusb.dir/build.make optor_stereo_visensor/CMakeFiles/optorusb.dir/build
-.PHONY : optorusb/fast
-
-#=============================================================================
-# Target rules for targets named optorimu
-
-# Build rule for target.
-optorimu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 optorimu
-.PHONY : optorimu
-
-# fast build rule for target.
-optorimu/fast:
-	$(MAKE) -f optor_stereo_visensor/CMakeFiles/optorimu.dir/build.make optor_stereo_visensor/CMakeFiles/optorimu.dir/build
-.PHONY : optorimu/fast
-
-#=============================================================================
-# Target rules for targets named stereo_visensor_node
-
-# Build rule for target.
-stereo_visensor_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_visensor_node
-.PHONY : stereo_visensor_node
-
-# fast build rule for target.
-stereo_visensor_node/fast:
-	$(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir/build
-.PHONY : stereo_visensor_node/fast
-
-#=============================================================================
-# Target rules for targets named optorcam
-
-# Build rule for target.
-optorcam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 optorcam
-.PHONY : optorcam
-
-# fast build rule for target.
-optorcam/fast:
-	$(MAKE) -f optor_stereo_visensor/CMakeFiles/optorcam.dir/build.make optor_stereo_visensor/CMakeFiles/optorcam.dir/build
-.PHONY : optorcam/fast
-
-#=============================================================================
-# Target rules for targets named stereo_visensor_cam
-
-# Build rule for target.
-stereo_visensor_cam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_visensor_cam
-.PHONY : stereo_visensor_cam
-
-# fast build rule for target.
-stereo_visensor_cam/fast:
-	$(MAKE) -f optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build.make optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir/build
-.PHONY : stereo_visensor_cam/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1657,11 +1592,6 @@ help:
 	@echo "... demo_mission"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... endurance_exp_orbit"
-	@echo "... optorusb"
-	@echo "... optorimu"
-	@echo "... stereo_visensor_node"
-	@echo "... optorcam"
-	@echo "... stereo_visensor_cam"
 .PHONY : help
 
 

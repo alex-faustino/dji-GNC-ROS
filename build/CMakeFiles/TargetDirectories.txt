@@ -141,15 +141,3 @@
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/endurance_exp_orbit.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/install/local.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/install/strip.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/install.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/list_install_components.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/install/strip.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/install/local.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/optorusb.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/optorimu.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/stereo_visensor_node.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/optorcam.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/test.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/stereo_visensor_cam.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/edit_cache.dir
-/home/matrice/dji-GNC-ROS/build/optor_stereo_visensor/CMakeFiles/rebuild_cache.dir
