@@ -433,21 +433,9 @@ int main(int argc, char** argv)
 	}
 
 	// Obtain Control Authority
-	S
-
-	int voltage = battery_state.voltage;
-
-	std::cout << voltage << std::endl;
-	i
-
-	int voltage = battery_state.voltage;
-
-	std::cout << voltage << std::endl;
+	ServiceAck ack = obtainCtrlAuthority();
+	if (ack.result)
 	{
-
-	int voltage = battery_state.voltage;
-
-	std::cout << voltage << std::endl;
 		ROS_INFO("Obtain SDK control Authority successfully");
 	}
 	else
