@@ -83,6 +83,7 @@ void batteryStateCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
 
 
 bool runHotpointMission(int initialRadius,
+						int initialAlt,
 					    float initialAngularSpeed,
 				        int responseTimeout)
 {
@@ -90,7 +91,7 @@ bool runHotpointMission(int initialRadius,
 
 	// Hotpoint Mission: Create hotpoint
 	dji_sdk::MissionHotpointTask hotpointTask;
-	setHotPointInit(hotpointTask, initialRadius, initialAngularSpeed);
+	setHotPointInit(hotpointTask, initialRadius, initialAngularSpeed, initialAlt);
 
 	// Hotpoint Mission: Initialize
 	initHotpointMission(hotpointTask);
@@ -171,11 +172,12 @@ bool endHotpointMission()
 
 void setHotPointInit(dji_sdk::MissionHotpointTask& hotpointTask,
 					 int initialRadius,
-					 float initialAngularSpeed)
+					 float initialAngularSpeed,
+					 int initialAlt)
 {
 	hotpointTask.latitude      = gps_pos.latitude;
 	hotpointTask.longitude     = gps_pos.longitude;
-	hotpointTask.altitude      = 30;
+	hotpointTask.altitude      = initialAlt;
 	hotpointTask.radius        = initialRadius;
 	hotpointTask.angular_speed = initialAngularSpeed;
 	hotpointTask.is_clockwise  = 0;
@@ -362,11 +364,11 @@ int main(int argc, char** argv)
 	
 	// Setup variables for use
 	uint8_t wayptPolygonSides;
-	int     initRadius;
+	int     initRadius, initAlt;
 	float	initLinVelocity;
 	float	initAngularSpeed;
 	int     responseTimeout = 1;
-	int		b, g;
+	int		b, g, trialNum;
 	char batteryDataFileName [64];
 	char gpsPosDataFileName [64];
 	
@@ -377,19 +379,25 @@ int main(int argc, char** argv)
     
 	std::cout << "Enter linear velocity in meters per second: ";
 	std::cin >> initLinVelocity;
+
+	std::cout << "Enter altitude in meters: ";
+	std::cin >> initAlt;
 	
 	std::cout << "Enter battery parameters" << std::endl;
 	std::cout << "Enter cutoff battery SoC in \%: ";
 	std::cin >> CUTOFF;
 
+	std::cout << "Enter trial number for these parameters: ";
+	std::cin >> trialNum;
+
 	// Create data files to write to
-	b = sprintf(batteryDataFileName, "%dm-%dmps-%dpercent-battery.txt",
-				initRadius, int(initLinVelocity), int(CUTOFF));
+	b = sprintf(batteryDataFileName, "%dm-%dmps-%dpercent-battery-%d.txt",
+				initRadius, int(initLinVelocity), int(CUTOFF), trialNum);
 	batteryDataFile = fopen(batteryDataFileName, "w");
 	
 	
-	g = sprintf(gpsPosDataFileName, "%dm-%dmps-%dpercent-gps-pos.txt",
-				initRadius, int(initLinVelocity), int(CUTOFF));
+	g = sprintf(gpsPosDataFileName, "%dm-%dmps-%dpercent-gps-pos-%d.txt",
+				initRadius, int(initLinVelocity), int(CUTOFF), trialNum);
 	gpsPosDataFile = fopen(gpsPosDataFileName, "w");
 	
     // Create battery monitor
@@ -458,7 +466,7 @@ int main(int argc, char** argv)
 	initAngularSpeed = (initLinVelocity/initRadius) * (180.0/C_PI);
 	
     // Hotpoint call
-    runHotpointMission(initRadius, initAngularSpeed, responseTimeout);
+    runHotpointMission(initRadius, initAlt, initAngularSpeed, responseTimeout);
 	
 	ros::spin();
 	

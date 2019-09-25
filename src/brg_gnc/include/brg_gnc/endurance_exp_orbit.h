@@ -59,7 +59,8 @@ bool endHotpointMission();
 
 void setHotPointInit(dji_sdk::MissionHotpointTask& hotpointTask,
 					 int initialRadius,
-					 float initialAngularSpeed);
+					 float initialAngularSpeed,
+					 int initialAlt);
 
 ServiceAck initHotpointMission(dji_sdk::MissionHotpointTask& hotpointTask);
 
