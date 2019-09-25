@@ -17,5 +17,4 @@ ROS Kinetic
 
 ##TODO
 
-* Dynamic System ID
 * Reintegrate vision system
