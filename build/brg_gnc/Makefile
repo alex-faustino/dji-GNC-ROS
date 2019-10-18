@@ -67,17 +67,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -110,6 +99,17 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -195,6 +195,21 @@ endurance_exp_orbit/fast:
 	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build
 .PHONY : endurance_exp_orbit/fast
 
+# Convenience name for target.
+brg_gnc/CMakeFiles/optimal_alt_exp.dir/rule:
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f CMakeFiles/Makefile2 brg_gnc/CMakeFiles/optimal_alt_exp.dir/rule
+.PHONY : brg_gnc/CMakeFiles/optimal_alt_exp.dir/rule
+
+# Convenience name for target.
+optimal_alt_exp: brg_gnc/CMakeFiles/optimal_alt_exp.dir/rule
+
+.PHONY : optimal_alt_exp
+
+# fast build rule for target.
+optimal_alt_exp/fast:
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/optimal_alt_exp.dir/build.make brg_gnc/CMakeFiles/optimal_alt_exp.dir/build
+.PHONY : optimal_alt_exp/fast
+
 src/endurance_exp_orbit.o: src/endurance_exp_orbit.cpp.o
 
 .PHONY : src/endurance_exp_orbit.o
@@ -222,6 +237,33 @@ src/endurance_exp_orbit.cpp.s:
 	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.s
 .PHONY : src/endurance_exp_orbit.cpp.s
 
+src/optimal_alt_exp.o: src/optimal_alt_exp.cpp.o
+
+.PHONY : src/optimal_alt_exp.o
+
+# target to build an object file
+src/optimal_alt_exp.cpp.o:
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/optimal_alt_exp.dir/build.make brg_gnc/CMakeFiles/optimal_alt_exp.dir/src/optimal_alt_exp.cpp.o
+.PHONY : src/optimal_alt_exp.cpp.o
+
+src/optimal_alt_exp.i: src/optimal_alt_exp.cpp.i
+
+.PHONY : src/optimal_alt_exp.i
+
+# target to preprocess a source file
+src/optimal_alt_exp.cpp.i:
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/optimal_alt_exp.dir/build.make brg_gnc/CMakeFiles/optimal_alt_exp.dir/src/optimal_alt_exp.cpp.i
+.PHONY : src/optimal_alt_exp.cpp.i
+
+src/optimal_alt_exp.s: src/optimal_alt_exp.cpp.s
+
+.PHONY : src/optimal_alt_exp.s
+
+# target to generate assembly for a file
+src/optimal_alt_exp.cpp.s:
+	cd /home/matrice/dji-GNC-ROS/build && $(MAKE) -f brg_gnc/CMakeFiles/optimal_alt_exp.dir/build.make brg_gnc/CMakeFiles/optimal_alt_exp.dir/src/optimal_alt_exp.cpp.s
+.PHONY : src/optimal_alt_exp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -229,17 +271,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... endurance_exp_orbit"
+	@echo "... edit_cache"
+	@echo "... optimal_alt_exp"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... src/endurance_exp_orbit.o"
 	@echo "... src/endurance_exp_orbit.i"
 	@echo "... src/endurance_exp_orbit.s"
+	@echo "... src/optimal_alt_exp.o"
+	@echo "... src/optimal_alt_exp.i"
+	@echo "... src/optimal_alt_exp.s"
 .PHONY : help
 
 

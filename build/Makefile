@@ -1478,6 +1478,19 @@ endurance_exp_orbit/fast:
 	$(MAKE) -f brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build.make brg_gnc/CMakeFiles/endurance_exp_orbit.dir/build
 .PHONY : endurance_exp_orbit/fast
 
+#=============================================================================
+# Target rules for targets named optimal_alt_exp
+
+# Build rule for target.
+optimal_alt_exp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 optimal_alt_exp
+.PHONY : optimal_alt_exp
+
+# fast build rule for target.
+optimal_alt_exp/fast:
+	$(MAKE) -f brg_gnc/CMakeFiles/optimal_alt_exp.dir/build.make brg_gnc/CMakeFiles/optimal_alt_exp.dir/build
+.PHONY : optimal_alt_exp/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1592,6 +1605,7 @@ help:
 	@echo "... demo_mission"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... endurance_exp_orbit"
+	@echo "... optimal_alt_exp"
 .PHONY : help
 
 

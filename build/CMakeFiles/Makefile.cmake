@@ -350,4 +350,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/demo_mission.dir/DependInfo.cmake"
   "brg_gnc/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "brg_gnc/CMakeFiles/endurance_exp_orbit.dir/DependInfo.cmake"
+  "brg_gnc/CMakeFiles/optimal_alt_exp.dir/DependInfo.cmake"
   )

@@ -108,5 +108,10 @@
   "directory": "/home/matrice/dji-GNC-ROS/build/brg_gnc",
   "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"brg_gnc\\\" -I/home/matrice/dji-GNC-ROS/src/brg_gnc/include -I/home/matrice/dji-GNC-ROS/devel/include -I/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11    -o CMakeFiles/endurance_exp_orbit.dir/src/endurance_exp_orbit.cpp.o -c /home/matrice/dji-GNC-ROS/src/brg_gnc/src/endurance_exp_orbit.cpp",
   "file": "/home/matrice/dji-GNC-ROS/src/brg_gnc/src/endurance_exp_orbit.cpp"
+},
+{
+  "directory": "/home/matrice/dji-GNC-ROS/build/brg_gnc",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"brg_gnc\\\" -I/home/matrice/dji-GNC-ROS/src/brg_gnc/include -I/home/matrice/dji-GNC-ROS/devel/include -I/home/matrice/dji-GNC-ROS/src/Onboard-SDK-ROS/dji_sdk/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11    -o CMakeFiles/optimal_alt_exp.dir/src/optimal_alt_exp.cpp.o -c /home/matrice/dji-GNC-ROS/src/brg_gnc/src/optimal_alt_exp.cpp",
+  "file": "/home/matrice/dji-GNC-ROS/src/brg_gnc/src/optimal_alt_exp.cpp"
 }
 ]

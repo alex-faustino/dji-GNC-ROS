@@ -133,11 +133,12 @@
 /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/test.dir
 /home/matrice/dji-GNC-ROS/build/Onboard-SDK-ROS/dji_sdk_demo/CMakeFiles/edit_cache.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/rebuild_cache.dir
-/home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/edit_cache.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/test.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/list_install_components.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/install.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/_catkin_empty_exported_target.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/endurance_exp_orbit.dir
+/home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/edit_cache.dir
+/home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/optimal_alt_exp.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/install/local.dir
 /home/matrice/dji-GNC-ROS/build/brg_gnc/CMakeFiles/install/strip.dir

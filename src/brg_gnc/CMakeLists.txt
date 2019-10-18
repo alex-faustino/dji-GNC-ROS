@@ -158,12 +158,19 @@ include_directories(
 
 add_executable(endurance_exp_orbit
         src/endurance_exp_orbit.cpp)
+add_executable(optimal_alt_exp
+        src/optimal_alt_exp.cpp)
 target_link_libraries(endurance_exp_orbit
         ${catkin_LIBRARIES}
         ${DJIOSDK_LIBRARIES}
         )
-add_dependencies(endurance_exp_orbit 
-		dji_sdk_generate_messages_cpp)
+target_link_libraries(optimal_alt_exp
+        ${catkin_LIBRARIES}
+        ${DJIOSDK_LIBRARIES}
+        )
+add_dependencies(endurance_exp_orbit
+        optimal_alt_exp
+		    dji_sdk_generate_messages_cpp)
 
 #############
 ## Install ##
